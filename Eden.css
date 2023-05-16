@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    background-color: #00000096;
+}
+
+.navbar a {
+    color: rgb(235, 235, 235);
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+header {
+    position: fixed;
+    width: 90%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000cf;
+    padding: 20px 5%;
+    transition: all .50s ease;
+
+}
+
+.navbar a:hover {
+    color: #ff4d05;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #ffffff;
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+.logo i {
+    color: #ee5509;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.flexcontainer {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+/*Content*/
+.backgroundimg {
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+    height: 70%;
+    z-index: -1;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.681);
+}
+
+.backgroundimg img {
+
+    width: 100%;
+    height: 100%;
+}
+
+/*Searbar*/
+.navigation form {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    top: 39%;
+    position: absolute;
+    left: 21%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.text{
+    color: #fff;
+    position: fixed;
+    top: 20%;
+    left: 58%;
+    width: 40%;
+    height: 70%;
+}
+.text h1{
+    position: relative;
+    left: 20%;
+    padding: 10px;
+    font-size: 4.4rem;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #000000;
+
+    
+}
+.text p{
+    top: 5%;
+    position: relative;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: monospace;
+    background-color: #0000006f;
+
+    
+}
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
